@@ -1,0 +1,6 @@
+<div (click)="exportPDF()">
+  <ng-content></ng-content>
+</div>
+<div *ngIf="openPdf === 'SAME_PAGE'" class="pdf-container">
+  <object [attr.data]="pdfBlog" type="application/pdf" style="width: 100%;margin-top: 0.4em;height: 564px;"></object>
+</div>

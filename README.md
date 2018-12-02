@@ -1,1 +1,1 @@
-# ng-pdf-viewer
+# Angular 6 PDF Viewer

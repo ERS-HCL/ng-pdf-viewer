@@ -2,6 +2,8 @@
 
 An Angular component with service to provide the featres to work with PDF such as viewing or downloading from a PDF url or an REST api.
 
+<img src="https://github.com/bikash-b/ng-pdf-viewer/blob/master/img/ng-pdf-viewer.png">
+
 ## How to use
 
 First download or clone `ng-pdf-viewer` to your project's `app` folder or any other shared module that you mantain. 

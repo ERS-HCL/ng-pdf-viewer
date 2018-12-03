@@ -59,15 +59,15 @@ If you want open the PDF in the same page where you have want to display then ju
 
 If you want to provide only API url and you want to provide an option to download the PDF,
 
-        <app-ng-pdf-viewer [pdfApi]="'https://www.mocky.io/v2/5c04179d3300005100d01ccb'" [downloadPdf]="true">
+        <ng-pdf-viewer [pdfApi]="'https://www.mocky.io/v2/5c04179d3300005100d01ccb'" [downloadPdf]="true">
                 <button>Download Pdf</button>
-        </app-ng-pdf-viewer>
+        </ng-pdf-viewer>
         
 If you want to provide an option to view the PDF in current page,
 
-        <app-ng-pdf-viewer [pdfApi]="'https://www.mocky.io/v2/5c04179d3300005100d01ccb'" [openPdf]="'SAME_PAGE'">
+        <ng-pdf-viewer [pdfApi]="'https://www.mocky.io/v2/5c04179d3300005100d01ccb'" [openPdf]="'SAME_PAGE'">
                 <button>Download Pdf</button>
-        </app-ng-pdf-viewer>
+        </ng-pdf-viewer>
 
 ## Author
 
